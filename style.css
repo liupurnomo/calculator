@@ -1,0 +1,224 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 2px 2px 5px #c7cad3;
+}
+
+.container img {
+    height: 60px;
+    margin-top: 2px;
+}
+
+.header-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.header-right {
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+    font-size: 20px;
+}
+
+.header-right i {
+    color: #005AF0;
+    padding: 0 10px;
+}
+
+.header-right a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 23px;
+}
+
+.header-right a:hover {
+    color: #005AF0;
+}
+@media all and (max-width: 670px) {
+
+    .header-right {
+        text-align: center;
+        padding: 0 auto;
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .container img {
+        height: 50px;
+        margin-top: 8px;
+    }
+}
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 400px;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    color: #ffffff;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #ffffff;
+    width: 25%;
+    outline: none;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: orange;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: darkorange;
+}
+
+/* Style untuk footer  */
+
+
+.main-footer img {
+    width: 125px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+/* Style untuk footer  */
+
+footer p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer p a:hover {
+    color: lightseagreen;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center ;
+    margin-top: 50px;
+}
+
+footer .fas {
+    color: red;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.main-footer {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.social-network a.icoWhatsapp:hover {
+	background-color: green;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+
+
+.social-network a.icoInstagram:hover {
+	background-color:darkorange;
+}
+.social-network a.icoWhatsapp:hover i, .social-network a.icoInstagram:hover i, .social-network a.icoTwitter:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+    font-size:20px;
+    background-color: rgb(65, 64, 64);
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
