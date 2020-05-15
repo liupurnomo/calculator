@@ -57,6 +57,13 @@ header {
     }
 }
 
+@media all and (max-width: 500px) {
+
+    .header-right {
+        display: none;
+    }
+}
+
 .calculator {
     text-align: center;
     margin: 0 auto;
